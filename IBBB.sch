@@ -35,7 +35,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 4
+Sheet 1 5
 Title "IBBB"
 Date "2016-05-14"
 Rev "A"
@@ -235,7 +235,7 @@ F 3 "" H 8250 2950 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Sheet
-S 2225 3875 1475 1100
+S 2375 3875 1325 825 
 U 57381327
 F0 "USB_UART" 60
 F1 "USB_UART.sch" 60
@@ -433,13 +433,13 @@ F 3 "" H 3250 1400 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Sheet
-S 8525 950  1275 700 
+S 9075 5200 1275 700 
 U 5738A7C2
 F0 "Oscillators" 60
 F1 "Oscillators.sch" 60
 $EndSheet
 $Sheet
-S 8525 2050 1275 675 
+S 7600 5200 1275 700 
 U 5738C205
 F0 "Power" 60
 F1 "Power.sch" 60
@@ -472,4 +472,10 @@ F 3 "" H 3550 3600 50  0000 C CNN
 $EndComp
 Wire Wire Line
 	3550 3600 3550 3525
+$Sheet
+S 7600 4250 1275 700 
+U 5738D4D2
+F0 "Analog / GPIO" 60
+F1 "Analog_GPIO.sch" 60
+$EndSheet
 $EndSCHEMATC
