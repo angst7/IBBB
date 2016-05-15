@@ -2,7 +2,7 @@
 
 itty bitty beagle bone
 
-This is just a test design using with the Octavo OSD3358. It may never amount to anything at all. 
+This is just a test design using the Octavo OSD3358. It may never amount to anything at all. 
 
 ##License##
 
