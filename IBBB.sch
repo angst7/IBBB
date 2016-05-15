@@ -35,7 +35,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 2
+Sheet 1 4
 Title "IBBB"
 Date "2016-05-14"
 Rev "A"
@@ -68,11 +68,7 @@ F 3 "" H 2025 1300 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2325 1200 2625 1200
-Wire Wire Line
-	2625 1200 3650 1200
-Wire Wire Line
-	3650 1200 4000 1200
+	2325 1200 4000 1200
 Wire Wire Line
 	4000 1300 3650 1300
 Wire Wire Line
@@ -140,9 +136,7 @@ F 3 "" H 2175 2400 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6400 3400 6650 3400
-Wire Wire Line
-	6650 3400 6900 3400
+	6400 3400 6900 3400
 Wire Wire Line
 	6400 3300 6650 3300
 Wire Wire Line
@@ -166,9 +160,7 @@ Wire Wire Line
 Wire Wire Line
 	6550 3100 6550 3200
 Wire Wire Line
-	6400 3200 6550 3200
-Wire Wire Line
-	6550 3200 6700 3200
+	6400 3200 6700 3200
 Wire Wire Line
 	6700 3200 6700 3150
 Connection ~ 6550 3200
@@ -188,9 +180,7 @@ Wire Wire Line
 Wire Wire Line
 	6525 3000 6525 2900
 Wire Wire Line
-	6525 2900 7100 2900
-Wire Wire Line
-	7100 2900 7250 2900
+	6525 2900 7250 2900
 Wire Wire Line
 	7100 2900 7100 2850
 $Comp
@@ -270,9 +260,7 @@ F 3 "" H 2850 3000 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2400 2500 3400 2500
-Wire Wire Line
-	3400 2500 4000 2500
+	2400 2500 4000 2500
 Wire Wire Line
 	3400 2500 3400 2900
 Wire Wire Line
@@ -283,9 +271,7 @@ Wire Wire Line
 	2400 3000 2650 3000
 Connection ~ 3400 2500
 Wire Wire Line
-	3150 3000 3300 3000
-Wire Wire Line
-	3300 3000 4000 3000
+	3150 3000 4000 3000
 Wire Wire Line
 	2900 3250 2900 3200
 Wire Wire Line
@@ -353,13 +339,9 @@ F 3 "" H 1800 3800 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1800 3450 1800 3550
+	1800 3450 1800 3650
 Wire Wire Line
-	1800 3550 1800 3650
-Wire Wire Line
-	1700 3550 1800 3550
-Wire Wire Line
-	1800 3550 3300 3550
+	1700 3550 3300 3550
 Connection ~ 1800 3550
 Wire Wire Line
 	3300 3550 3300 3000
@@ -433,9 +415,7 @@ Wire Wire Line
 Wire Wire Line
 	3900 4200 3700 4200
 Wire Wire Line
-	3250 1400 3650 1400
-Wire Wire Line
-	3650 1400 4000 1400
+	3250 1400 4000 1400
 Wire Wire Line
 	4000 1500 3650 1500
 Wire Wire Line
@@ -452,4 +432,44 @@ F 3 "" H 3250 1400 50  0000 C CNN
 	1    3250 1400
 	0    -1   -1   0   
 $EndComp
+$Sheet
+S 8525 950  1275 700 
+U 5738A7C2
+F0 "Oscillators" 60
+F1 "Oscillators.sch" 60
+$EndSheet
+$Sheet
+S 8525 2050 1275 675 
+U 5738C205
+F0 "Power" 60
+F1 "Power.sch" 60
+$EndSheet
+$Comp
+L R R?
+U 1 1 5738D8EE
+P 3550 3375
+F 0 "R?" V 3630 3375 50  0000 C CNN
+F 1 "10k" V 3500 3375 50  0000 C CNN
+F 2 "" V 3480 3375 30  0000 C CNN
+F 3 "" H 3550 3375 30  0000 C CNN
+	1    3550 3375
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4000 3200 3550 3200
+Wire Wire Line
+	3550 3200 3550 3225
+$Comp
+L GND #PWR?
+U 1 1 5738D9A2
+P 3550 3600
+F 0 "#PWR?" H 3550 3350 50  0001 C CNN
+F 1 "GND" H 3550 3450 50  0000 C CNN
+F 2 "" H 3550 3600 50  0000 C CNN
+F 3 "" H 3550 3600 50  0000 C CNN
+	1    3550 3600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3550 3600 3550 3525
 $EndSCHEMATC
