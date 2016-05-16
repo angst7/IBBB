@@ -35,7 +35,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 5
+Sheet 1 6
 Title "IBBB"
 Date "2016-05-14"
 Rev "A"
@@ -477,5 +477,11 @@ S 7600 4250 1275 700
 U 5738D4D2
 F0 "Analog / GPIO" 60
 F1 "Analog_GPIO.sch" 60
+$EndSheet
+$Sheet
+S 9075 4250 1275 700 
+U 573A65DA
+F0 "uSD / SYSBOOT" 50
+F1 "SD_SYSBOOT.sch" 50
 $EndSheet
 $EndSCHEMATC
