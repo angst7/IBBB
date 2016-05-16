@@ -1,4 +1,4 @@
-update=5/14/2016 7:17:19 PM
+update=5/15/2016 10:40:32 PM
 version=1
 last_client=kicad
 [pcbnew]
@@ -60,3 +60,13 @@ LibName28=atmel
 LibName29=contrib
 LibName30=valves
 LibName31=OSD335x
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=50
